@@ -111,7 +111,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'fin_gest_db',
         'USER': 'postgres',     # O 'django_user' si usaste la opción recomendada
+<<<<<<< HEAD
         'PASSWORD': '123456789',
+=======
+        'PASSWORD': config("DB_PASSWORD"),
+>>>>>>> dd942f79e55e9507861cc742fc3f193001782a51
         'HOST': 'localhost',
         'PORT': '5432',
     }
